@@ -18,9 +18,8 @@ class Solution {
         } 
         ListNode node = removeElements(head.next, val);
         
-        if (head.val == val) {
-            return node;
-        } else {
+        if (head.val == val) return node;
+        else {
             head.next = node;
             return head;
         }
