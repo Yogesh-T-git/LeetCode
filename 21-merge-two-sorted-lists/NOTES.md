@@ -1,4 +1,4 @@
-Iterative method
+Iterative method : see the first accepted solution.
 ​
 class Solution {
 public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
@@ -23,7 +23,3 @@ result.next = temp2;
 return list2.next;
 }else if(temp2 == null){
 result.next = temp;
-return list2.next;
-}else return list2.next;
-}
-}
