@@ -17,17 +17,12 @@ class Solution {
                 return null;
             } else return head;
         } 
-        
         ListNode node = removeElements(head.next, val);
-        
         if (head.val == val) {
             return node;
         } else {
             head.next = node;
             return head;
-        }
-        
-        
-        
+        }   
     }
 }
