@@ -13,9 +13,8 @@ class Solution {
         
         if (head == null) return  null;
         if (head.next == null) {
-            if (head.val == val) {
-                return null;
-            } else return head;
+            if (head.val == val) return null;
+            else return head;
         } 
         ListNode node = removeElements(head.next, val);
         
